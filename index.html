@@ -2,10 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<script>
-	alert("你又不理我")
-</script>
+<title>菜鸟教程(runoob.com)</title>
 </head>
 <body>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Mouse Over Me</div>
+<script>
+function mOver(obj){
+	obj.innerHTML="zxf"
+}
+function mOut(obj){
+	obj.innerHTML="魔镜魔镜谁是世界上最傻的人"
+}
+</script>
+
 </body>
 </html>
